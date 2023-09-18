@@ -123,7 +123,7 @@ def run():
                 array = [count[0], count[1], count[3]]
                 maximum = array.index(max(array))
                 if maximum == 0:
-                    card[h][w] = 1
+                    card[h][w] = 0
                 elif maximum == 1:
                     card[h][w] = 1
                 else:
